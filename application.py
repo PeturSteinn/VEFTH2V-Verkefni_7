@@ -160,5 +160,5 @@ def error404(error):
 
 
 
-#run(host="0.0.0.0", port=os.environ.get('PORT'), app=my_session)
-run(debug=True, reloader=True, app=my_session)
+run(host="0.0.0.0", port=os.environ.get('PORT'), app=my_session)
+#run(debug=True, reloader=True, app=my_session)
