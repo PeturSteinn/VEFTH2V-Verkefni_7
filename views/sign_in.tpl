@@ -57,7 +57,7 @@
     <section class="footer-content">
       <div class=""></div>
       <div class="github">
-        <a href="#">
+        <a href="https://github.com/PeturSteinn/VEFTH2V-Verkefni_7">
           <div class=""><img src="/static/img/github.svg" alt=""></div>
           <div class="">GitHub</div>
         </a>
