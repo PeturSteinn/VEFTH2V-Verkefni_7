@@ -1,4 +1,3 @@
-import requests
 import os
 from bottle import route, post, run, static_file, error, request, template, response, redirect, app
 from beaker.middleware import SessionMiddleware
@@ -161,5 +160,5 @@ def error404(error):
 
 
 
-run(host="0.0.0.0", port=os.environ.get('PORT'), app=my_session)
-#run(debug=True, reloader=True, app=my_session)
+#run(host="0.0.0.0", port=os.environ.get('PORT'), app=my_session)
+run(debug=True, reloader=True, app=my_session)
